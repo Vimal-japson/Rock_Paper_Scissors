@@ -1,0 +1,117 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+
+.head{
+    font-size: 4em;
+    margin-bottom: 1.5em;
+    font-family: 'Protest Guerrilla', sans-serif;
+    line-height: 1.25em;
+    
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+button{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-size: 5.3em;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(224, 219, 219) ;
+}
+
+.need{
+    margin-left: .4em;
+}
+.banner{
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Protest Riot', sans-serif;
+}
+.banner div{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+#res{
+    padding: .2em;
+    font-size: 1.6em;
+}
+.footer{
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Protest Riot', sans-serif;
+}
+.footer div{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.win{
+    color: green;
+    background-color: rgb(241, 230, 230);
+    
+}
+.lose{
+    color: red;
+    background-color: rgb(241, 230, 230);
+}
+.tie{
+    color: steelblue;
+    background-color: rgb(241, 230, 230);
+}
+@media(min-width:680px){
+    .head{
+    text-align: center;
+    background-color: #11009E;
+    color: white;
+    padding: 1em;
+    }
+
+    .buttons{
+        margin-bottom: 3em;
+    }
+    .banner div{
+        font-size: 1.4em;
+       
+    
+    }
+    .need{
+        margin-left: 0;
+    }
+    .banner{
+        font-size: 1.4em;
+        border-radius: 5vh;
+        margin-bottom: 1em;
+        background-color: rgb(232, 234, 236);
+        padding: .5em;
+        width: 920px;
+        margin: 1em auto;
+    }
+    .footer{
+        background-color: rgb(232, 234, 236);
+        border-radius: 5vh;
+        padding: .5em;
+        width: 920px;
+        margin:  1em auto;
+    }
+    main{
+        background-color: white;
+        border-radius: 5vh;
+        
+       
+    }
+
+    #res{
+        background-color: rgb(232, 234, 236);
+        font-size: 1.6em;
+    }
+}
